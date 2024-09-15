@@ -6,11 +6,34 @@
         <title>Blog</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
+        <!-- <link href="css/styles.css" rel="stylesheet" /> -->
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Simple line icons-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Anaktoria:wght@400;700&display=swap" rel="stylesheet">
         <!-- Simple line icons-->
         <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
     </head>
-    <body class="bg-indigo">
+    <body class="bg-indigo" id="page-top">
+        <!-- Navigation-->
+        <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
+        <nav id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand"><a href="#page-top">Menu</a></li>
+                <li class="sidebar-nav-item"><a href="#about">En savoir plus</a></li>
+                <li class="sidebar-nav-item"><a href="#aeta-intro">AETA Audio Systems</a></li>
+                <li class="sidebar-nav-item"><a href="#aeta_integration">Article 1</a></li>
+                <li class="sidebar-nav-item"><a href="#aeta-projets">Article 2</a></li>
+                <li class="sidebar-nav-item"><a href="#aeta-scoop6">Article 3</a></li>
+                <li class="sidebar-nav-item"><a href="#aeta-decouverte">Article 4</a></li>
+                <li class="sidebar-nav-item"><a href="#aeta-conclusion">Article 5</a></li>
+                <li class="sidebar-nav-item"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
         <header class="section-full-height d-flex align-items-center py-6 bg-ordi">
             <div class="container px-2 py-5 text-center text-white">
                 <h1>Blog - Julie KREUWEN</h1>
@@ -73,23 +96,23 @@
                                 Elle conçoit et fabrique des équipements innovants pour la diffusion audio de haute qualité, utilisés dans des environnements critiques tels que la radio, la télévision, et les événements en direct. 
                                 Grâce à son expertise reconnue et à ses produits fiables, AETA s'impose comme un acteur clé dans le secteur des télécommunications audio, en France et à l'international.
                             </div>
+
+                            <div class="pt-3">
+                                <div>
+                                    Pendant cette période, j'ai eu l'occasion de contribuer à plusieurs projets passionnants, touchant à la fois des aspects techniques et innovants dans le domaine de l'audio professionnel. 
+                                    Dans les articles qui suivent, je partage les moments clés de mon stage, les projets sur lesquels j'ai travaillé, les compétences que j'ai développées, ainsi que les challenges que j'ai surmontés. 
+                                    Chaque projet m'a permis de renforcer mon expertise et d'explorer de nouvelles technologies tout en m'adaptant à un environnement professionnel exigeant. 
+                                    Je vous invite à découvrir ces expériences et à plonger dans les détails de mon parcours chez AETA Audio Systems.
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="col-3 vertical-center">
                         <img class= "max-100" src="./images/scoopyflex.png" alt="">
                     </div>
                 </div>
-
-                <div class="pb-5 px-5 mx-5">
-                    <div>
-                        Pendant cette période, j'ai eu l'occasion de contribuer à plusieurs projets passionnants, touchant à la fois des aspects techniques et innovants dans le domaine de l'audio professionnel. 
-                        Dans les articles qui suivent, je partage les moments clés de mon stage, les projets sur lesquels j'ai travaillé, les compétences que j'ai développées, ainsi que les challenges que j'ai surmontés. 
-                        Chaque projet m'a permis de renforcer mon expertise et d'explorer de nouvelles technologies tout en m'adaptant à un environnement professionnel exigeant. 
-                        Je vous invite à découvrir ces expériences et à plonger dans les détails de mon parcours chez AETA Audio Systems.
-                    </div>
-                </div>
             </div>
-            <div class="align-items-center my-4">
+            <div class="align-items-center my-5">
                 <a class="btn btn-light btn-xl max-70 text-l m-auto" href="#aeta-integration">Article suivant</a>
             </div>
         </section>
@@ -132,7 +155,7 @@
                     </div>
                 </div>
             </div>
-            <div class="align-items-center my-4">
+            <div class="align-items-center my-5">
                 <a class="btn btn-light btn-xl max-70 text-l m-auto" href="#aeta-projets">Article suivant</a>
             </div>
         </section>
@@ -149,7 +172,7 @@
                 </h4>
                 <div class="row m-1">
                     <div class=" col-8">
-                        <div class="p-5 my-5">
+                        <div class="p-3 my-5">
                             <div>
                                 Parmi les projets qui m'ont été confiés, l’un des plus marquants a été l’ajout d’un clavier USB sur le Scoop 6. 
                                 Ce produit est un codec audio compact, utilisé dans le domaine de la diffusion pour assurer une transmission audio de haute qualité, particulièrement en environnements exigeants. 
@@ -168,7 +191,7 @@
                     </div>
                 </div>
 
-                <div class="pb-5 px-5 mx-5">
+                <div class="pb-3 px-5">
                     <div>
                         En parallèle de ce projet, j'ai également dû me renseigner sur la bibliothèque LVGL, une librairie graphique open-source utilisée pour développer des interfaces utilisateur sur des appareils embarqués. 
                         Ce projet m’a permis d’approfondir mes connaissances sur les microcontrôleurs et de tester différents kits de développement, comme l’ESP32 et NXP, afin de choisir la meilleure plateforme pour ce type de projet.
@@ -209,7 +232,7 @@
                     </div>
                 </div>
 
-                <div class="pb-5 px-5 mx-5">
+                <div class="pb-3 px-5">
                     <div>
                         Pour le Scoop 6, la difficulté majeure était l'absence d'une interface de saisie logicielle. Contrairement au ScoopPhone 4G, il a fallu développer des interfaces logicielles pour permettre l’utilisation du clavier USB.
                         Chaque étape de ce projet m'a permis d'affiner mes compétences en résolution de problèmes complexes, en m'adaptant à un code existant tout en apportant des solutions efficaces et optimisées pour répondre aux nouveaux besoins des utilisateurs.
@@ -239,11 +262,6 @@
                                 J'ai mené des recherches approfondies sur divers microcontrôleurs et kits de développement, notamment l'ESP32 et les plateformes NXP.
                                 Ces outils sont cruciaux pour la création de solutions adaptées aux besoins spécifiques des projets de transmission audio.
                             </div>
-                            <div>
-                                L'une des découvertes majeures a été la librairie LVGL (Lightweight Embedded Graphics Library), qui est largement utilisée pour le développement d'interfaces graphiques sur des systèmes embarqués. 
-                                Cette librairie offre une flexibilité et une performance exceptionnelles pour concevoir des interfaces utilisateur modernes et réactives. 
-                                J'ai pris le temps d'apprendre à utiliser LVGL, ce qui m'a permis de mieux comprendre comment créer des interfaces adaptées à des contraintes matérielles spécifiques
-                            </div>
                         </div>
                     </div>
                     <div class="col-3 vertical-center">
@@ -254,9 +272,16 @@
                     </div>
                     <div class="col-8 px-5 vertical-center">
                         <div>
-                            De plus, la mise en place de l'environnement de développement a été une partie essentielle de mon apprentissage. 
-                            J'ai configuré des machines virtuelles pour simuler des environnements de travail, ce qui est crucial pour le développement logiciel dans des contextes de production. 
-                            Cette configuration m'a permis de travailler efficacement sur les projets en cours tout en assurant une compatibilité optimale avec les systèmes existants.
+                            <div>
+                                L'une des découvertes majeures a été la librairie LVGL (Lightweight Embedded Graphics Library), qui est largement utilisée pour le développement d'interfaces graphiques sur des systèmes embarqués. 
+                                Cette librairie offre une flexibilité et une performance exceptionnelles pour concevoir des interfaces utilisateur modernes et réactives. 
+                                J'ai pris le temps d'apprendre à utiliser LVGL, ce qui m'a permis de mieux comprendre comment créer des interfaces adaptées à des contraintes matérielles spécifiques
+                            </div>
+                            <div>
+                                De plus, la mise en place de l'environnement de développement a été une partie essentielle de mon apprentissage. 
+                                J'ai configuré des machines virtuelles pour simuler des environnements de travail, ce qui est crucial pour le développement logiciel dans des contextes de production. 
+                                Cette configuration m'a permis de travailler efficacement sur les projets en cours tout en assurant une compatibilité optimale avec les systèmes existants.
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -349,8 +374,14 @@
                     </form>
                 </div>
             </div>
-            
+            <div class="px-4 text-white align-items-bottom-center">
+                <div class="mb-0">Copyright &copy; Portfolio Julie KREUWEN 2024</div>
+            </div>
         </section>
+
+        <!-- Scroll to Top Button-->
+        <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
+        
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
             document.getElementById("contactForm").addEventListener("submit", function(event) {
@@ -361,5 +392,9 @@
                 }
             });
         </script>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
     </body>
 </html>
